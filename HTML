@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify music list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        
+        <div class="songlist">
+            <h1> crazy beats</h1>
+            <div class="songitem">
+                <img  alt="1">
+                <span class="songnames">ZEZE</span>
+                <span class="songlistplay"><span class="timestamp">05:34<i id="0" class="fa-solid songItemPlay fa-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img  alt="1">
+                <span class="songnames">Please Please</span>
+                <span class="songlistplay"><span class="timestamp">05:34<i id="1" class="fa-solid songItemPlay fa-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img  alt="1">
+                <span class="songnames">Nonstop</span>
+                <span class="songlistplay"><span class="timestamp">05:34<i id="2" class="fa-solid songItemPlay fa-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img  alt="2">
+                <span class="songnames">Light switch</span>
+                <span class="songlistplay"><span class="timestamp">05:34<i id="3" class="fa-solid songItemPlay fa-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img  alt="2">
+                <span class="songnames">Red Sky</span>
+                <span class="songlistplay"><span class="timestamp">05:34<i id="4" class="fa-solid songItemPlay fa-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img alt="2">
+                <span class="songnames">Lalkara</span>
+                <span class="songlistplay"><span class="timestamp">05:34<i id="5" class="fa-solid songItemPlay fa-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img alt="2">
+                <span class="songnames">Shivers</span>
+                <span class="songlistplay"><span class="timestamp">05:34<i id="6" class="fa-solid songItemPlay fa-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img  alt="2">
+                <span class="songnames">Night changes</span>
+                <span class="songlistplay"><span class="timestamp">05:34<i id="7" class="fa-solid songItemPlay fa-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img  alt="2">
+                <span class="songnames">Cold</span>
+                <span class="songlistplay"><span class="timestamp">05:34<i id="8" class="fa-solid songItemPlay fa-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img  alt="2">
+                <span class="songnames">GOAT</span>
+                <span class="songlistplay"><span class="timestamp">05:34<i id="9" class="fa-solid songItemPlay fa-play"></i></span></span>
+            </div>
+            
+        </div>
+        <div class="songbanner"></div>
+    </div>
+    
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            
+            <i class="fa-solid fa-backward" id="previous"></i>
+            <i class="fa-solid fa-play" id="masterplay"></i>
+            <i class="fa-solid fa-forward" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="playing.gif" width="34px" alt="" id="gif"> <span id="masterSongName"></span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/ce355d8c9f.js" crossorigin="anonymous"></script>
+    <script src="scrpit.js"></script>
+</body>
+</html>
